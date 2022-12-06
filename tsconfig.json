@@ -1,0 +1,35 @@
+{
+  "files": [
+    "src/main/config/files.d.ts",
+    "src/main/config/styled-components.d.ts"
+  ],
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "rootDirs": ["src"],
+    "allowJs": true,
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "build, node_modules"
+  ]
+}
